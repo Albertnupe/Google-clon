@@ -4,6 +4,9 @@ body {
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: #35363A;
+}
 
 a {
     text-decoration: none;
@@ -29,19 +32,27 @@ header nav .nav-right-section {
 }
 nav .nav-right-section a {
     margin-right: 10px;
-    color: #000000;
+    color: white;
 }
-nav .nav-right-section .menu-icon{
-    background-image: url(https://static.thenounproject.com/png/756729-200.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 25px;
-    height: 25px;
-
+nav .nav-right-section .material-icons {
+    color: white;
+    margin: auto;
 }
 nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
+    margin: auto;
+}
 
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img {
+    width: 300px;
 }
